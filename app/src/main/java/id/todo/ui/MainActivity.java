@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setupView() {
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
+//        toolbar = (Toolbar) findViewById(R.id.toolbar);
         buttonAdd = (ImageButton) findViewById(R.id.fab);
         listView= (ListView) findViewById(R.id.listview);
         todoArrayAdapter = new ArrayAdapter<Todo>(this,android.R.layout.simple_list_item_1, todos){
